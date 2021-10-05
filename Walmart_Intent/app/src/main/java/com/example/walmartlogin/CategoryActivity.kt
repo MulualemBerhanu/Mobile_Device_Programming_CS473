@@ -8,8 +8,11 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.category_item.view.*
-import kotlinx.android.synthetic.main.category_layout.*
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_create_acount.*
+import kotlinx.android.synthetic.main.activity_category.view.*
+import kotlinx.android.synthetic.main.activity_items.*
+
 
 class CategoryActivity:AppCompatActivity()  {
     var recyclerView:RecyclerView?=null;
