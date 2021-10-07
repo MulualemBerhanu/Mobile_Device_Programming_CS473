@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:text="@string/question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:textSize="18sp"
+            android:text="Var i : int = 42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/ans"
+            android:textSize="18sp"
+            android:text="Var i : Int = 42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+        <RadioButton
+            android:textSize="18sp"
+            android:text="let i = 42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RadioButton>
+</RadioGroup>
+    <TextView
+
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:text="@string/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <CheckBox
+        android:id="@+id/answer1"
+        android:textSize="18sp"
+        android:text=" Nullable Check  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/answer2"
+        android:textSize="18sp"
+        android:text="Safe call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/answer3"
+        android:textSize="18sp"
+        android:text="Elvis operator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+
+<LinearLayout
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:onClick="submit"
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:layout_margin="8dp"
+        android:layout_weight="0.7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:onClick="reset"
+        android:id="@+id/reset"
+        android:text="Reset"
+        android:backgroundTint="@color/black"
+        android:layout_margin="8dp"
+        android:layout_weight="0.7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+</LinearLayout>
+
+</LinearLayout>

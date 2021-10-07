@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizeApp</string>
+    <string name="question1">1) What is the correct way to declare a variable of integer type in kotlin?</string>
+    <string name="question">2) Which is the way to handle Null safety in kotlin?</string>
+</resources>
