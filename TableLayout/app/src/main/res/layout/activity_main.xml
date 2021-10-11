@@ -134,6 +134,18 @@
                     android:gravity="center"
                     ></TextView>
             </TableRow>
+            <TableRow android:padding="4dp">
+                <TextView
+
+                    android:text="android10"
+                    android:gravity="center"
+                    ></TextView>
+                <TextView
+
+                    android:text="10"
+                    android:gravity="center"
+                    ></TextView>
+            </TableRow>
         </TableLayout>
     </ScrollView>
 
