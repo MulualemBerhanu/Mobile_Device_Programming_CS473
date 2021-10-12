@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/icon_one"
+                    android:padding="8dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_school"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </ImageButton>
+                <TextView
+                    android:id="@+id/title_one"
+                    android:textSize="20sp"
+                    android:text="Education"
+                    android:padding="8dp"
+                    android:layout_toRightOf="@id/icon_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_toRightOf="@id/icon_one"
+                    android:text="Maharshi Universty "
+                    android:padding="8dp"
+                    android:layout_below="@id/title_one"
+                    android:id="@+id/body_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <ImageButton
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:src="@drawable/ic_edit"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/body_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                </ImageButton>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/icon_two"
+                    android:padding="8dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </ImageButton>
+                <TextView
+                    android:id="@+id/title_two"
+                    android:textSize="20sp"
+                    android:text="Personal"
+                    android:padding="8dp"
+                    android:layout_toRightOf="@id/icon_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_toRightOf="@id/icon_two"
+                    android:text="I Love to play piano"
+                    android:padding="8dp"
+                    android:layout_below="@id/title_two"
+                    android:id="@+id/body_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <ImageButton
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:src="@drawable/ic_edit"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/body_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                </ImageButton>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/icon_three"
+                    android:padding="8dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_strength"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </ImageButton>
+                <TextView
+                    android:id="@+id/title_three"
+                    android:textSize="20sp"
+                    android:text="My strength"
+                    android:padding="8dp"
+                    android:layout_toRightOf="@id/icon_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_toRightOf="@id/icon_three"
+                    android:text="Emotional intelligence "
+                    android:padding="8dp"
+                    android:layout_below="@id/title_three"
+                    android:id="@+id/body_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <ImageButton
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:src="@drawable/ic_edit"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/body_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                </ImageButton>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/icon_four"
+                    android:padding="8dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_weakness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </ImageButton>
+                <TextView
+                    android:id="@+id/title_four"
+                    android:textSize="20sp"
+                    android:text="My Weakens"
+                    android:padding="8dp"
+                    android:layout_toRightOf="@id/icon_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_toRightOf="@id/icon_four"
+                    android:text="Sleep"
+                    android:padding="8dp"
+                    android:layout_below="@id/title_four"
+                    android:id="@+id/body_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <ImageButton
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:src="@drawable/ic_edit"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/body_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                </ImageButton>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

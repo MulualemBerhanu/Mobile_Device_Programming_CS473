@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/header"
+            app:layout_constraintHeight_percent="0.3"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="8dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Work Experience Form"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+
+                </TextView>
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    app:cardElevation="8dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="8dp"
+                            android:padding="8dp"
+                            android:text="Skills"
+                            android:textSize="20sp">
+
+                        </TextView>
+                        <LinearLayout
+                            android:layout_margin="12dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:layout_margin="5dp"
+                                android:drawablePadding="5dp"
+                                android:drawableLeft="@drawable/ic_code"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_language"
+                                android:hint="Programming Language
+                                EX. Java, JavaScript"
+                                >
+
+                            </EditText>
+                            <EditText
+                                android:layout_margin="5dp"
+                                android:drawablePadding="5dp"
+                                android:drawableLeft="@drawable/ic_language"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_wab"
+                                android:hint="Web EX. HTML, Spring "
+                                >
+
+                            </EditText>
+                            <EditText
+                                android:layout_margin="5dp"
+                                android:drawablePadding="5dp"
+                                android:drawableLeft="@drawable/ic_db"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_db"
+                                android:hint="DataBase EX. MySQL, Mongo "
+                                >
+
+                            </EditText>
+                            <EditText
+
+                                android:layout_margin="8dp"
+                                android:drawablePadding="5dp"
+                                android:drawableLeft="@drawable/ic_tools"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_tool"
+                                android:hint="Tools EX. IntelliJ, Eclipse, StarUML, Git"
+                                >
+
+                            </EditText>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    app:cardElevation="8dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="8dp"
+                            android:padding="8dp"
+                            android:text="Professional Experience"
+                            android:textSize="20sp">
+
+                        </TextView>
+                        <LinearLayout
+                            android:layout_margin="12dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+
+                                android:layout_margin="8dp"
+                                android:drawablePadding="5dp"
+                                android:drawableLeft="@drawable/ic_note"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_cnote"
+                                android:hint="Career Note"
+                                >
+
+                            </EditText>
+
+                            <EditText
+
+                                android:layout_margin="8dp"
+                                android:drawablePadding="5dp"
+                                android:drawableLeft="@drawable/ic_comp_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_cname"
+                                android:hint="Company Name"
+                                >
+
+                            </EditText>
+
+                            <EditText
+
+                                android:layout_margin="8dp"
+                                android:drawablePadding="5dp"
+                                android:drawableLeft="@drawable/ic_comp_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_cadd"
+                                android:hint="Company Address"
+                                >
+
+                            </EditText>
+
+                            <EditText
+
+                                android:layout_margin="8dp"
+                                android:drawablePadding="5dp"
+                                android:drawableLeft="@drawable/ic_comp_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_title"
+                                android:hint="Title"
+                                >
+
+                            </EditText>
+
+                            <EditText
+
+                                android:layout_margin="8dp"
+                                android:drawablePadding="5dp"
+                                android:drawableLeft="@drawable/ic_comp_role"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_resp"
+                                android:hint="Responsibility"
+                                >
+
+                            </EditText>
+
+                            <EditText
+
+                                android:layout_margin="8dp"
+                                android:drawablePadding="5dp"
+                                android:drawableLeft="@drawable/ic_tech"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/et_tech"
+                                android:hint="Technology Used"
+                                >
+
+                            </EditText>
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+</ScrollView>

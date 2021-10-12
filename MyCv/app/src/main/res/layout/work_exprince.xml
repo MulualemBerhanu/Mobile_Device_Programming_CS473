@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/header"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Work Experience"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+
+            </TextView>
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:textColor="@color/black"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:drawablePadding="8dp"
+                       android:padding="8dp"
+                       android:text="Skills"
+                       android:textSize="20sp">
+
+                   </TextView>
+                   <LinearLayout
+                       android:layout_margin="12dp"
+                       android:orientation="vertical"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <TextView
+                           android:drawablePadding="8dp"
+                           android:textSize="18sp"
+                           android:padding="8dp"
+                           android:drawableStart="@drawable/ic_language"
+                           android:text="Languages"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                       </TextView>
+                       <TextView
+                           android:id="@+id/tv_languages"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                       </TextView>
+                       <TextView
+                           android:drawablePadding="8dp"
+                           android:drawableStart="@drawable/ic_web"
+                           android:padding="8dp"
+                           android:textSize="18sp"
+
+                           android:text="Web"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                       </TextView>
+                       <TextView
+                           android:id="@+id/tv_web"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                       </TextView>
+                       <TextView
+                           android:drawablePadding="8dp"
+                           android:drawableStart="@drawable/ic_db"
+                           android:padding="8dp"
+                           android:text="Database"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                       </TextView>
+                       <TextView
+                           android:id="@+id/tv_db"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                       </TextView>
+                       <TextView
+                           android:drawablePadding="8dp"
+                           android:drawableStart="@drawable/ic_tools"
+                           android:padding="8dp"
+                           android:text="Tools"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                       </TextView>
+                       <TextView
+                           android:id="@+id/tv_tools"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+
+                       </TextView>
+                   </LinearLayout>
+               </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="8dp"
+                        android:padding="8dp"
+                        android:text="Professional Experience"
+                        android:textSize="20sp">
+
+                    </TextView>
+                    <LinearLayout
+                        android:layout_margin="12dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:drawablePadding="8dp"
+                            android:textSize="18sp"
+                            android:padding="8dp"
+                            android:drawableStart="@drawable/ic_note"
+                            android:text="Career Note"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/tv_career"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:drawablePadding="8dp"
+                            android:drawableStart="@drawable/ic_comp_name"
+                            android:padding="8dp"
+                            android:textSize="18sp"
+
+                            android:text="Company Name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/tv_company_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:drawablePadding="8dp"
+                            android:drawableStart="@drawable/ic_comp_address"
+                            android:padding="8dp"
+                            android:textSize="18sp"
+                            android:text="Company Address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/tv_company_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:drawablePadding="8dp"
+                            android:textSize="18sp"
+                            android:drawableStart="@drawable/ic_comp_title"
+                            android:padding="8dp"
+                            android:text="Title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/tv_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:drawablePadding="8dp"
+                            android:drawableStart="@drawable/ic_comp_role"
+                            android:padding="8dp"
+                            android:textSize="18sp"
+
+                            android:text="Responsibility"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/tv_role"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:drawablePadding="8dp"
+                            android:drawableStart="@drawable/ic_tech"
+                            android:padding="8dp"
+                            android:textSize="18sp"
+
+                            android:text="Technology Used"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/technology"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+</ScrollView>
